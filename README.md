@@ -125,7 +125,7 @@ bnb_config = BitsAndBytesConfig(
 )
 ```
 ### 4. LoRA (Low-Rank Adaptation)
-- 
+- By using BitsAndBytes to select only the Linear layers that have been quantized to 4-bit, you can apply fine-tuning specifically to those layers. This approach reduces memory usage while efficiently training only the necessary parts of the model, without the need to fine-tune the entire model.
 ```python
 lora_config = LoraConfig(
     r=64,
@@ -137,9 +137,9 @@ lora_config = LoraConfig(
 )
 ```
 
-## Fine Tuning Guide
-- 
 ## Train Report
+- [My report](https://wandb.ai/dhwmd08-tech-university-of-korea/huggingface/reports/Gemma2-9B-Train-Report--Vmlldzo5NTM5NTEz?accessToken=uwuvw9ugbz4ggglpt4zre8meecuz5vp425meh77ciqzmbhysmampso9jzstm7msf)
 
-## Inference
+
+Let's Try~!
 
