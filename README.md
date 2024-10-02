@@ -3,7 +3,7 @@
 - Text to SQL
 - This model is based on the Gemma 2 Model.
 - Fine tuned to use MySQL
-- When you enter context and natural language, which are components of a table, a MySQL Query that matches them is returned
+- When you input context and natural language, a matching MySQL query is generated.
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"> <img src="https://img.shields.io/badge/Hugging Face-FFD21E?style=for-the-badge&logo=Hugging Face&logoColor=black"> <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white"> <img src="https://img.shields.io/badge/Gemma2-8E75B2?style=for-the-badge&logo=Google Gemini&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white">
 
